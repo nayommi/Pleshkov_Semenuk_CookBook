@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F46C20C2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F46C20B2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F46C2122834C7D2008EB013 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F46C2102834C7D2008EB013 /* Interface.storyboard */; };
+		3F46C2142834C7D3008EB013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F46C2132834C7D3008EB013 /* Assets.xcassets */; };
+		3F46C21A2834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F46C2192834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F46C21F2834C7D3008EB013 /* TableRecipesIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C21E2834C7D3008EB013 /* TableRecipesIC.swift */; };
+		3F46C2212834C7D3008EB013 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C2202834C7D3008EB013 /* ExtensionDelegate.swift */; };
+		3F46C2232834C7D3008EB013 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C2222834C7D3008EB013 /* ComplicationController.swift */; };
+		3F46C2252834C7D4008EB013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F46C2242834C7D4008EB013 /* Assets.xcassets */; };
+		3F46C2362834CCEA008EB013 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C2352834CCE4008EB013 /* Recipes.swift */; };
+		3F46C2372834CE93008EB013 /* RowTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C2342834CC12008EB013 /* RowTable.swift */; };
+		3F46C2392834D11E008EB013 /* DetailRecipeIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C2382834D11E008EB013 /* DetailRecipeIC.swift */; };
+		3F46C23B2834D50D008EB013 /* RecipeDescriptionIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46C23A2834D50D008EB013 /* RecipeDescriptionIC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F46C20D2834C7D2008EB013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F46C2012834C7D2008EB013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F46C20A2834C7D2008EB013;
+			remoteInfo = "pleshkov_Semenuk_cookbook WatchKit App";
+		};
+		3F46C21B2834C7D3008EB013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F46C2012834C7D2008EB013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F46C2182834C7D3008EB013;
+			remoteInfo = "pleshkov_Semenuk_cookbook WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F46C22C2834C7D4008EB013 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F46C21A2834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F46C2302834C7D4008EB013 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F46C20C2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F46C2072834C7D2008EB013 /* pleshkov_Semenuk_cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleshkov_Semenuk_cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F46C20B2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pleshkov_Semenuk_cookbook WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F46C2112834C7D2008EB013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F46C2132834C7D3008EB013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F46C2192834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pleshkov_Semenuk_cookbook WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F46C21E2834C7D3008EB013 /* TableRecipesIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRecipesIC.swift; sourceTree = "<group>"; };
+		3F46C2202834C7D3008EB013 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F46C2222834C7D3008EB013 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3F46C2242834C7D4008EB013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F46C2262834C7D4008EB013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F46C2342834CC12008EB013 /* RowTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTable.swift; sourceTree = "<group>"; };
+		3F46C2352834CCE4008EB013 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		3F46C2382834D11E008EB013 /* DetailRecipeIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeIC.swift; sourceTree = "<group>"; };
+		3F46C23A2834D50D008EB013 /* RecipeDescriptionIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDescriptionIC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F46C2162834C7D3008EB013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F46C2002834C7D2008EB013 = {
+			isa = PBXGroup;
+			children = (
+				3F46C20F2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App */,
+				3F46C21D2834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension */,
+				3F46C2082834C7D2008EB013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F46C2082834C7D2008EB013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F46C2072834C7D2008EB013 /* pleshkov_Semenuk_cookbook.app */,
+				3F46C20B2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app */,
+				3F46C2192834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F46C20F2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F46C2102834C7D2008EB013 /* Interface.storyboard */,
+				3F46C23A2834D50D008EB013 /* RecipeDescriptionIC.swift */,
+				3F46C2382834D11E008EB013 /* DetailRecipeIC.swift */,
+				3F46C2352834CCE4008EB013 /* Recipes.swift */,
+				3F46C2342834CC12008EB013 /* RowTable.swift */,
+				3F46C2132834C7D3008EB013 /* Assets.xcassets */,
+			);
+			path = "pleshkov_Semenuk_cookbook WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F46C21D2834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F46C21E2834C7D3008EB013 /* TableRecipesIC.swift */,
+				3F46C2202834C7D3008EB013 /* ExtensionDelegate.swift */,
+				3F46C2222834C7D3008EB013 /* ComplicationController.swift */,
+				3F46C2242834C7D4008EB013 /* Assets.xcassets */,
+				3F46C2262834C7D4008EB013 /* Info.plist */,
+			);
+			path = "pleshkov_Semenuk_cookbook WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F46C2062834C7D2008EB013 /* pleshkov_Semenuk_cookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F46C2312834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook" */;
+			buildPhases = (
+				3F46C2052834C7D2008EB013 /* Resources */,
+				3F46C2302834C7D4008EB013 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F46C20E2834C7D2008EB013 /* PBXTargetDependency */,
+			);
+			name = pleshkov_Semenuk_cookbook;
+			productName = pleshkov_Semenuk_cookbook;
+			productReference = 3F46C2072834C7D2008EB013 /* pleshkov_Semenuk_cookbook.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3F46C20A2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F46C22D2834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook WatchKit App" */;
+			buildPhases = (
+				3F46C2092834C7D2008EB013 /* Resources */,
+				3F46C22C2834C7D4008EB013 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F46C21C2834C7D3008EB013 /* PBXTargetDependency */,
+			);
+			name = "pleshkov_Semenuk_cookbook WatchKit App";
+			productName = "pleshkov_Semenuk_cookbook WatchKit App";
+			productReference = 3F46C20B2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F46C2182834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F46C2292834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook WatchKit Extension" */;
+			buildPhases = (
+				3F46C2152834C7D3008EB013 /* Sources */,
+				3F46C2162834C7D3008EB013 /* Frameworks */,
+				3F46C2172834C7D3008EB013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pleshkov_Semenuk_cookbook WatchKit Extension";
+			productName = "pleshkov_Semenuk_cookbook WatchKit Extension";
+			productReference = 3F46C2192834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F46C2012834C7D2008EB013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F46C2062834C7D2008EB013 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F46C20A2834C7D2008EB013 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F46C2182834C7D3008EB013 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F46C2042834C7D2008EB013 /* Build configuration list for PBXProject "pleshkov_Semenuk_cookbook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F46C2002834C7D2008EB013;
+			productRefGroup = 3F46C2082834C7D2008EB013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F46C2062834C7D2008EB013 /* pleshkov_Semenuk_cookbook */,
+				3F46C20A2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App */,
+				3F46C2182834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F46C2052834C7D2008EB013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F46C2092834C7D2008EB013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F46C2142834C7D3008EB013 /* Assets.xcassets in Resources */,
+				3F46C2122834C7D2008EB013 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F46C2172834C7D3008EB013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F46C2252834C7D4008EB013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F46C2152834C7D3008EB013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F46C2392834D11E008EB013 /* DetailRecipeIC.swift in Sources */,
+				3F46C2212834C7D3008EB013 /* ExtensionDelegate.swift in Sources */,
+				3F46C23B2834D50D008EB013 /* RecipeDescriptionIC.swift in Sources */,
+				3F46C21F2834C7D3008EB013 /* TableRecipesIC.swift in Sources */,
+				3F46C2232834C7D3008EB013 /* ComplicationController.swift in Sources */,
+				3F46C2362834CCEA008EB013 /* Recipes.swift in Sources */,
+				3F46C2372834CE93008EB013 /* RowTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F46C20E2834C7D2008EB013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F46C20A2834C7D2008EB013 /* pleshkov_Semenuk_cookbook WatchKit App */;
+			targetProxy = 3F46C20D2834C7D2008EB013 /* PBXContainerItemProxy */;
+		};
+		3F46C21C2834C7D3008EB013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F46C2182834C7D3008EB013 /* pleshkov_Semenuk_cookbook WatchKit Extension */;
+			targetProxy = 3F46C21B2834C7D3008EB013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F46C2102834C7D2008EB013 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F46C2112834C7D2008EB013 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F46C2272834C7D4008EB013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F46C2282834C7D4008EB013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F46C22A2834C7D4008EB013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pleshkov_Semenuk_cookbook WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "pleshkov_Semenuk_cookbook WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F46C22B2834C7D4008EB013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pleshkov_Semenuk_cookbook WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "pleshkov_Semenuk_cookbook WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F46C22E2834C7D4008EB013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = pleshkov_Semenuk_cookbook_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "pleshkov_Semenuk_cookbook WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F46C22F2834C7D4008EB013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = pleshkov_Semenuk_cookbook_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "pleshkov_Semenuk_cookbook WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F46C2322834C7D4008EB013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F46C2332834C7D4008EB013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.pleshkov-Semenuk-cookbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F46C2042834C7D2008EB013 /* Build configuration list for PBXProject "pleshkov_Semenuk_cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F46C2272834C7D4008EB013 /* Debug */,
+				3F46C2282834C7D4008EB013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F46C2292834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F46C22A2834C7D4008EB013 /* Debug */,
+				3F46C22B2834C7D4008EB013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F46C22D2834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F46C22E2834C7D4008EB013 /* Debug */,
+				3F46C22F2834C7D4008EB013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F46C2312834C7D4008EB013 /* Build configuration list for PBXNativeTarget "pleshkov_Semenuk_cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F46C2322834C7D4008EB013 /* Debug */,
+				3F46C2332834C7D4008EB013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F46C2012834C7D2008EB013 /* Project object */;
+}
